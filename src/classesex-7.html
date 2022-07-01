@@ -1,0 +1,25 @@
+<script>
+
+    //Parent/Main/Super/Base-class...
+
+    class Admin{
+        
+        myfun (){
+
+            return "<br/><br/>This is AdminFunction <br/><br/>";
+
+        }
+    }
+
+    //Child/Sub/Derived Class
+    class User extends Admin{
+        myfun(){
+            return `<br/><br/>This is UserFunction-${super.myfun()}<br/><br/>`;
+        }
+    }
+
+    //child-class-object
+
+    var u=new User;
+    document.write(`<br/>Child Class-${u.myfun()}<br/><br/>`);
+</script>

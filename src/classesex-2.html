@@ -1,0 +1,43 @@
+<script>
+    // Class - declaration & Body
+    
+    class user 
+    {
+        //  class-properties/variables
+        
+        uid=1
+        uname="Kuladeep"
+        uemail="Kuladeep@gmail.com"
+    
+        // class-Methods/Functions
+    
+        Myfun1()
+        {
+            return `Named Functions in class without Function Keyword`;
+        }
+        Myfun2=function()
+        {
+            return `Ananemous functions in class without Function Keyword`;
+        }
+        Myfun3 =() => 
+        {
+            return `Arrow function in class without function keyword`;
+        }
+    }
+    
+    //  Object of the class
+    //  var object Name= new ClassName
+    
+    var u = new user
+    
+    document.write(`<h1> class properties data:</h1><br/>
+    UID is: ${u.uid}<br/>
+    UNAME is:${u.uname}<br/>
+    UEMAIL is:${u.uemail}<br/>`)
+    
+    document.write(`<h1>class methods data:</h1><br/>
+    ${u.Myfun1()}<br/>
+    ${u.Myfun2()}<br/>
+    ${u.Myfun3()}<br/>`)
+
+</script>

@@ -1,0 +1,54 @@
+{
+  "users": [
+
+
+    {
+      "id": 1,
+      "name": "Harish1",
+      "email": "Harish@3gmail.com",
+      "phone": 8096556812
+    },
+    
+    {
+      "id": 2,
+      "name": "Harish2",
+      "email": "Harish@3gmail.com",
+      "phone": 8096556813
+    },
+    {
+      "id": 3,
+      "name": "Harish3",
+      "email": "Harish@3gmail.com",
+      "phone": 8096556814
+    }
+  ],
+  "bookings": [
+    {
+      "sno": 1,
+      "datebooking": "30-05-2022",
+      "product": "mi mobile"
+    },
+    {
+      "sno": 1,
+      "datebooking": "30-05-2022",
+      "product": "oppo"
+    }
+  ],
+  "admins": [
+    {
+      "sno": 1,
+      "uname": "Harish",
+      "mobile": 8096556812
+    },
+    {
+      "sno": 2,
+      "uname": "Harish",
+      "mobile": 8096556812
+    },
+    {
+      "sno": 3,
+      "uname": "Harish",
+      "mobile": 8096556812
+    }
+  ]
+}

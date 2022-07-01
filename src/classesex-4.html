@@ -1,0 +1,41 @@
+<script>
+    // Class - declaration & Body
+    
+    class user {
+    
+// Class Default Function
+
+constructor(){
+
+    document.write("<h1>This is class default method.</h1>");
+    
+}
+
+// Global function
+
+myfun1(){
+
+    document.write("this is 1st function <br/>");
+    this.myfun2();
+    this.myfun3();
+}
+
+// class global function
+
+myfun2(){
+   
+    document.write("this is 2nd function<br/>");
+
+}
+
+myfun3(){
+
+    document.write("this is 3rd function<br/>");
+
+}
+
+    }  
+    var u = new user;
+    u.myfun1();
+   
+    </script>
